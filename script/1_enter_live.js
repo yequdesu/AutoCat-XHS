@@ -17,8 +17,7 @@ enterLiveRoom();
 
 function enterLiveTab() {
     // 点击顶部“直播”标签
-    var liveTab = text("直播").findOne(5000);
-    liveTab.click();
+    click("直播")
     sleep(2000);
 }
 
